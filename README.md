@@ -1,2 +1,2 @@
-# ChatGPT-shanzhai-version
+# ChatGPT-Ataliya
 山寨版的ChatGPT
