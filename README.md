@@ -1,2 +1,2 @@
 # ChatGPT-Ataliya
-山寨版的ChatGPT
+阿塔利亚的ChatGPT
