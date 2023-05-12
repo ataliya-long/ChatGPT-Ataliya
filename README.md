@@ -2,7 +2,7 @@
 <div align="center">
   <img src="./img/ai.png" alt="图片描述" />
 </div>
-网站：<https://markdown.com.cn>
+网站：这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。
 <h2>阿塔利亚的GPT😆：</h2>
 <h3>V1.0版本更新：</h3>
 1. 支持ChatGPT3.5 （稳定）
