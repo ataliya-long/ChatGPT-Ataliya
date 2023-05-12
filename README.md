@@ -1,9 +1,10 @@
 # GPT-Ataliya(New bing+ChatGPT-3.5-Turbo+DALL·E 2绘图)
 <div align="center">
-  <img src="图片地址" alt="图片描述" />
+  <img src="./img/ai.png" alt="图片描述" />
 </div>
 <h2>阿塔利亚的GPT😆：</h2>
 <h3>V1.0版本更新：</h3>
+
 1. 支持ChatGPT3.5 （稳定）
 <br>
 3. 支持上下文聊天
