@@ -1,4 +1,4 @@
-# GPT-Ataliya(New bing+ChatGPT-3.5-Turbo+DALL·E 2绘图)
+# GPT-Ataliya(ChatGPT-3.5-Turbo+DALL·E 2绘图)
 <div align="center">
   <img src="./img/ai.png" alt="图片描述" />
 </div>
