@@ -2,7 +2,7 @@
 <div align="center">
   <img src="./img/ai.png" alt="图片描述" />
 </div>
-网站：http://43.139.75.125/
+网站：http://43.139.75.125:8888/
 <h2>阿塔利亚的GPT😆：</h2>
 <h3>V1.0版本更新：</h3>
 1. 支持ChatGPT3.5 （稳定）
