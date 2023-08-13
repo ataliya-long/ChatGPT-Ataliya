@@ -1,0 +1,179 @@
+*{
+  color: #fff;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  background-color: #343541;
+  display: flex;
+}
+
+.sider-bar{
+  background-color: #202123;
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.new-chat{
+  cursor: pointer;
+}
+
+button{
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav{
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.history{
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+
+
+.history li{
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.history li:hover{
+  background-color: #746d6d;
+  border-radius: 15px;
+}
+
+
+.main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.info{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottom-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input{
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
+  rgba(0, 0, 0, 0.05) 0 -12px 30px,
+  rgba(0, 0, 0, 0.05) 0 4px 6px,
+  rgba(0, 0, 0, 0.05) 0 12px 3px,
+  rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+input:focus{
+  outline: none;
+}
+
+#submit{
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  cursor: pointer;
+}
+
+.feed{
+  overflow: scroll;
+  width: 100%;
+  padding: 0;
+}
+
+.feed li{
+  display: flex;
+  background-color: #444654;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.feed p{
+  color: rgba(177, 233, 200, 0.8);
+  font-size: 15px;
+  text-align: left;
+}
+
+.feed p.role{
+  min-width: 70px;
+  text-align: center;
+}
+
+.line{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.forms{
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.forms input {
+  padding-right: 1px; /* 根据你的按钮大小调整这个值 */
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-147%);
+  transform: rotateX('angle');
+  background: none;
+  border: none;
+}
+
+.message-content {
+  width: 100ch;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
