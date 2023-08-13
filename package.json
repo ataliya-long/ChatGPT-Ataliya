@@ -1,0 +1,53 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/redis": "^4.0.11",
+    "antd": "^5.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "godb": "^0.6.2",
+    "ioredis": "^5.3.2",
+    "isomorphic-fetch": "^3.0.0",
+    "laf-client-sdk": "^1.0.0-beta.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-scripts": "5.0.1",
+    "redis": "^4.6.6",
+    "showdown": "^2.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:backend": "nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
